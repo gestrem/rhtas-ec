@@ -1,0 +1,8 @@
+---
+identity:
+  subject: https://gitlab.com/lucarval/sign-attest-poc//.gitlab-ci.yml@refs/heads/main
+  issuer: https://gitlab.com
+sources:
+  - policy:
+    - git::https://gitlab.com/lucarval/simple-ec-policies
+
